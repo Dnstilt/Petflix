@@ -1,0 +1,89 @@
+@font-face {
+    font-family: grobold;
+    src: url('/fonts/grobold.ttf');
+    font-size: normal;
+    font-weight: normal;
+}    
+
+.b-login{
+    background-color: #000011;
+}
+
+.form{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.card{
+    box-shadow: 3px 3px 5px #bbbbe6;
+    background-color: #7dcafd;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.card-top{
+    text-align: center;
+    
+}
+.imglogin{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+
+}
+.title{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    color: #b003b6;
+    font-family: grobold, Arial, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+
+.text1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #b003b6;
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.cardgroup{
+   margin-bottom: 10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.cardgroup > label{
+    width: 100%;
+    color:black;
+    display: block;
+    text-align: center;
+    align-self: center;
+
+}
+.cardgroup > input{
+    border-radius: 10px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+}
+
+.btn{
+    background-image: linear-gradient(to left, #000011, #6565e7);
+    width: 100%;
+    border-radius: 15px;
+    color: #b003b6;
+    height: 40px;
+    font-family: grobold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    align-self: center;
+
+}
+.btn:hover{
+    background-image: linear-gradient(to left, #6565e7, #000011);
+
+}
