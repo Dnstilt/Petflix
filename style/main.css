@@ -72,7 +72,7 @@ header nav a:hover{
 }
 .filme-capa .descricao{
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .filme-capa .titulo{
     margin-top: 15%;
@@ -108,15 +108,16 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+    margin-top:10px;   
 }
     
 .cat-h2{
     font-family: grobold;
     color:var(--Letras);
     letter-spacing: 2px;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 25px;
 }
 .btn-1{
@@ -124,3 +125,16 @@ header nav a:hover{
     color: mintcream;
 }
 
+footer {
+    font-family: 'Gill Sans bold', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+	background-color: #7d94fd;
+	color: #0306d4;
+	position: fixed;
+	text-align: center;
+    bottom: 1px;
+    border-radius: 40px;
+	
+}
